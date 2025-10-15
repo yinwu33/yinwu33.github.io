@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/whybraking2025
 excerpt: 'This paper is about scenario extraction and reasoning utilizing LLM.'
-date: 2025
+date: 2025-10-01
 venue: 'IEEE ICVES 2025'
 paperurl: 'https://arxiv.org/abs/2507.15874'
 citation: 'Wu, Yin, et al. "Why Braking? Scenario Extraction and Reasoning Utilizing LLM." arXiv preprint arXiv:2507.15874 (2025).'

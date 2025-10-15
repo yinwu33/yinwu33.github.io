@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/laneperf2025
 excerpt: 'This paper is about label-free performance estimation for lane detection.'
-date: 2025
+date: 2025-11-01
 venue: 'IEEE ITSC 2025'
 paperurl: 'https://arxiv.org/abs/2507.12894'
 citation: 'Wu, Yin, et al. "LanePerf: a Performance Estimation Framework for Lane Detection." arXiv preprint arXiv:2507.12894 (2025).'

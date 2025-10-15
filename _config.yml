@@ -27,7 +27,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Munich"
-  employer         : "Karlsruhe Institute of Technology / CARIAD SE"
+  employer         : "CARIAD SE"
+  uni              : "Karlsruhe Institute of Technology"
   uri              : # URL
   email            : "yinwu.life@gmail.com" 
 

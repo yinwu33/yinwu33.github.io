@@ -23,17 +23,17 @@ repository               : "yinwu33/yinwu33.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : ":)"
+  name             : "Yin Wu"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Munich"
-  employer         : "KIT"
+  employer         : "Karlsruhe Institute of Technology / CARIAD SE"
   uri              : # URL
   email            : "yinwu.life@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=Va5MksQAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -77,8 +77,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  # books:
+  #   title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:

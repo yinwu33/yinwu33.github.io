@@ -100,6 +100,10 @@ def extract_author_info(config):
         if author.get('employer'):
             author_info['summary'] = f"Currently employed at {author.get('employer')}"
         
+        # Add employer as part of summary
+        if author.get('uni'):
+            author_info['summary'] = f"Currently study at {author.get('uni')}"
+            
         # Add bio to summary if available
         if author.get('bio'):
             if author_info['summary']:

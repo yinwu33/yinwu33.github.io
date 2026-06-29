@@ -22,7 +22,7 @@ repository               : "yinwu33/yinwu33.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "yin.jpg"
   name             : "Yin Wu"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. researcher in ADAS/AD verification and validation."

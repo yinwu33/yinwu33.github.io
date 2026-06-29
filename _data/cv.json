@@ -1,152 +1,211 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yin Wu",
+    "email": "yinwu.life@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://yinwu33.github.io",
+    "summary": "Ph.D. researcher in ADAS/AD verification and validation, with experience in scenario generation, scenario mining, multi-sensor perception, reinforcement learning planners, and ADAS system integration.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Munich",
+      "countryCode": "DE",
+      "region": "Bavaria"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "Yin Wu",
+        "url": "https://scholar.google.com/citations?user=Va5MksQAAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "yinwu33",
+        "url": "https://github.com/yinwu33"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "CARIAD SE",
+      "position": "Ph.D. Student, Scenario and Testing Department",
+      "website": "",
+      "startDate": "2023-09",
+      "endDate": "",
+      "summary": "Research and project work in data-driven ADAS/AD verification and validation.",
+      "highlights": [
+        "Contributed to PoCs for an LLM-based scenario agentic editor and LLM-based test case generation.",
+        "Supported corner case detection from bus data."
+      ]
+    },
+    {
+      "company": "LiangDao GmbH",
+      "position": "Computer Vision Algorithm Engineer",
+      "website": "",
+      "startDate": "2023-05",
+      "endDate": "2023-08",
+      "summary": "Developed an online HD map generation network using LiDAR point clouds.",
+      "highlights": [
+        "Built and maintained GitLab CI/CD pipelines for production deployment."
+      ]
+    },
+    {
+      "company": "LiangDao GmbH",
+      "position": "Master Thesis",
+      "website": "",
+      "startDate": "2022-08",
+      "endDate": "2023-03",
+      "summary": "Fusion of Multi-Information to Improve Object Detection Results for LiDAR Point Clouds.",
+      "highlights": [
+        "Developed a sensor fusion and object tracking system for autonomous driving.",
+        "Grade: 1.0."
+      ]
+    },
+    {
+      "company": "LiangDao GmbH",
+      "position": "Intern, Field Application Engineering",
+      "website": "",
+      "startDate": "2022-04",
+      "endDate": "2022-07",
+      "summary": "Assembled and integrated edge-computing LiDAR systems.",
+      "highlights": [
+        "Deployed hardware solutions at customer sites.",
+        "Developed evaluation software for LiDAR system performance."
+      ]
+    },
+    {
+      "company": "Karlsruhe Institute of Technology",
+      "position": "Student Assistant, ADAS Integration",
+      "website": "",
+      "startDate": "2021-07",
+      "endDate": "2022-03",
+      "summary": "Built a multi-sensor data collection system with LiDAR, cameras, and GNSS/IMU sensors.",
+      "highlights": [
+        "Developed ROS-based software.",
+        "Worked on sensor calibration and time synchronization."
+      ]
+    },
+    {
+      "company": "Karlsruhe Institute of Technology",
+      "position": "Tutor, Optimization and Dynamic System",
+      "website": "",
+      "startDate": "2021-12",
+      "endDate": "2022-03",
+      "summary": "Tutored exercise classes and provided MATLAB programming guidance.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Karlsruhe Institute of Technology",
+      "area": "Data-driven Verification and Validation in ADAS/AD",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2023-09",
+      "endDate": "",
       "gpa": null,
+      "courses": [
+        "Cross-country ADAS release validation",
+        "Scenario identification",
+        "Virtual scenario generation for ODD coverage"
+      ]
+    },
+    {
+      "institution": "Karlsruhe Institute of Technology",
+      "area": "Mechatronics and Information Technology, Robotics",
+      "studyType": "M.Sc.",
+      "startDate": "2019-10",
+      "endDate": "2023-03",
+      "gpa": "1.5",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Beijing Institute of Technology",
+      "area": "Vehicle Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2015-09",
+      "endDate": "2018-07",
+      "gpa": "2.0",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Autonomous driving validation",
+      "level": "",
+      "keywords": [
+        "Scenario generation",
+        "Scenario mining",
+        "OpenX-Format",
+        "ODD coverage",
+        "ADAS system integration"
+      ]
+    },
+    {
+      "name": "AI and perception",
+      "level": "",
+      "keywords": [
+        "Deep Learning",
+        "Agentic AI",
+        "LLM Harness",
+        "Motion Prediction",
+        "Diffusion",
+        "Reinforcement Learning",
+        "Multi-sensor perception",
+        "Calibration"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C++",
+        "Docker",
+        "GitLab CI/CD",
+        "ROS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "German",
+      "fluency": "Good working proficiency"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery",
+      "publisher": "IEEE IV 2026",
+      "releaseDate": "2026-01-01",
+      "website": "https://arxiv.org/pdf/2602.01836",
+      "summary": "Leveraged street-view imagery to identify out-of-distribution traffic elements for efficient ADAS test route planning."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Why Braking? Scenario Extraction and Reasoning Utilizing LLM",
+      "publisher": "IEEE ICVES 2025",
+      "releaseDate": "2025-10-01",
+      "website": "https://arxiv.org/pdf/2507.15874",
+      "summary": "Integrated LLMs into a rule-based framework for scenario extraction, enabling both rule-based and semantic scenario search."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "LanePerf: a Performance Estimation Framework for Lane Detection",
+      "publisher": "IEEE ITSC 2025",
+      "releaseDate": "2025-11-01",
+      "website": "https://arxiv.org/pdf/2507.12894",
+      "summary": "Developed a lane detection performance estimator using features from foundation models and ADAS perception models."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

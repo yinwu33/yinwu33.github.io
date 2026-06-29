@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yin Wu"
 title_separator          : "-"
 name                     : &name "Yin Wu"
-description              : &description "Hi, I'm Yin"
+description              : &description "Ph.D. researcher in ADAS/AD verification and validation."
 url                      : https://yinwu33.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yinwu33/yinwu33.github.io"
@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Yin Wu"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
-  location         : "Munich"
+  bio              : "Ph.D. researcher in ADAS/AD verification and validation."
+  location         : "Munich, Germany"
   employer         : "CARIAD SE"
   uni              : "Karlsruhe Institute of Technology"
-  uri              : # URL
+  uri              : "https://yinwu33.github.io"
   email            : "yinwu.life@gmail.com" 
 
   # Academic websites
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # "academicpages"
+  github           : "yinwu33"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

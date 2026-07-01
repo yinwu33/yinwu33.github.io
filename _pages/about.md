@@ -49,14 +49,14 @@ redirect_from:
         <h3>Karlsruhe Institute of Technology, M.Sc.</h3>
         <span>10/2019 - 03/2023</span>
       </div>
-      <p class="home-meta">Mechatronics and Information Technology, Robotics; grade: 1.5</p>
+      <p class="home-meta">Mechatronics and Information Technology, Robotics</p>
     </article>
     <article class="home-entry">
       <div class="home-entry__head">
         <h3>Beijing Institute of Technology, B.Sc.</h3>
         <span>09/2015 - 07/2018</span>
       </div>
-      <p class="home-meta">Vehicle Engineering; grade: 2.0</p>
+      <p class="home-meta">Vehicle Engineering</p>
     </article>
   </div>
 </section>
@@ -89,7 +89,7 @@ redirect_from:
       <p class="home-meta">Master Thesis, 08/2022 - 03/2023</p>
       <ul>
         <li>Thesis: Fusion of Multi-Information to Improve Object Detection Results for LiDAR Point Clouds.</li>
-        <li>Developed a sensor fusion and object tracking system for autonomous driving; grade: 1.0.</li>
+        <li>Developed a sensor fusion and object tracking system for autonomous driving.</li>
       </ul>
       <p class="home-meta">Intern, Field Application Engineering, 04/2022 - 07/2022</p>
       <ul>

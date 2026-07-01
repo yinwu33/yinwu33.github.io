@@ -66,10 +66,10 @@ redirect_from:
   <div class="home-timeline">
     <article class="home-entry">
       <div class="home-entry__head">
-        <h3>Ph.D. Student, Scenario and Testing Department</h3>
+        <h3>CARIAD SE, Germany</h3>
         <span>09/2023 - Present</span>
       </div>
-      <p class="home-meta">CARIAD SE, Germany</p>
+      <p class="home-meta">Ph.D. Student, Scenario and Testing Department</p>
       <ul>
         <li>Research and project work in data-driven ADAS/AD verification and validation.</li>
         <li>Contributed to PoCs for an LLM-based scenario agentic editor and LLM-based test case generation.</li>
@@ -78,32 +78,20 @@ redirect_from:
     </article>
     <article class="home-entry">
       <div class="home-entry__head">
-        <h3>Computer Vision Algorithm Engineer</h3>
-        <span>05/2023 - 08/2023</span>
+        <h3>LiangDao GmbH, Germany</h3>
+        <span>04/2022 - 08/2023</span>
       </div>
-      <p class="home-meta">LiangDao GmbH, Germany</p>
+      <p class="home-meta">Computer Vision Algorithm Engineer, 05/2023 - 08/2023</p>
       <ul>
         <li>Developed an online HD map generation network using LiDAR point clouds.</li>
         <li>Built and maintained GitLab CI/CD pipelines for production deployment.</li>
       </ul>
-    </article>
-    <article class="home-entry">
-      <div class="home-entry__head">
-        <h3>Master Thesis</h3>
-        <span>08/2022 - 03/2023</span>
-      </div>
-      <p class="home-meta">LiangDao GmbH, Germany</p>
+      <p class="home-meta">Master Thesis, 08/2022 - 03/2023</p>
       <ul>
         <li>Thesis: Fusion of Multi-Information to Improve Object Detection Results for LiDAR Point Clouds.</li>
         <li>Developed a sensor fusion and object tracking system for autonomous driving; grade: 1.0.</li>
       </ul>
-    </article>
-    <article class="home-entry">
-      <div class="home-entry__head">
-        <h3>Intern, Field Application Engineering</h3>
-        <span>04/2022 - 07/2022</span>
-      </div>
-      <p class="home-meta">LiangDao GmbH, Germany</p>
+      <p class="home-meta">Intern, Field Application Engineering, 04/2022 - 07/2022</p>
       <ul>
         <li>Assembled and integrated edge-computing LiDAR systems.</li>
         <li>Deployed hardware solutions at customer sites and developed evaluation software for LiDAR system performance.</li>
@@ -111,21 +99,15 @@ redirect_from:
     </article>
     <article class="home-entry">
       <div class="home-entry__head">
-        <h3>Student Assistant, ADAS Integration</h3>
+        <h3>Karlsruhe Institute of Technology, Germany</h3>
         <span>07/2021 - 03/2022</span>
       </div>
-      <p class="home-meta">Karlsruhe Institute of Technology, Germany</p>
+      <p class="home-meta">Student Assistant, ADAS Integration, 07/2021 - 03/2022</p>
       <ul>
         <li>Built a multi-sensor data collection system integrating LiDAR, cameras, and GNSS/IMU sensors with ROS-based software.</li>
         <li>Worked on sensor calibration and time synchronization.</li>
       </ul>
-    </article>
-    <article class="home-entry">
-      <div class="home-entry__head">
-        <h3>Tutor, Optimization and Dynamic System</h3>
-        <span>12/2021 - 03/2022</span>
-      </div>
-      <p class="home-meta">Karlsruhe Institute of Technology, Germany</p>
+      <p class="home-meta">Tutor, Optimization and Dynamic System, 12/2021 - 03/2022</p>
       <p>Tutored exercise classes and provided MATLAB programming guidance.</p>
     </article>
   </div>
@@ -148,23 +130,6 @@ redirect_from:
     <p class="home-meta">IEEE ITSC 2025</p>
     <p>Developed a lane detection performance estimator using features from foundation models and ADAS perception models.</p>
   </article>
-</section>
-
-<section class="home-section" id="skills">
-  <h2>Skills</h2>
-  <div class="home-chip-list">
-    <span class="home-chip">Deep Learning</span>
-    <span class="home-chip">Agentic AI</span>
-    <span class="home-chip">LLM Harness</span>
-    <span class="home-chip">Motion Prediction</span>
-    <span class="home-chip">Diffusion</span>
-    <span class="home-chip">Reinforcement Learning</span>
-    <span class="home-chip">OpenX-Format</span>
-    <span class="home-chip">Calibration</span>
-    <span class="home-chip">Python</span>
-    <span class="home-chip">C++</span>
-    <span class="home-chip">Docker</span>
-  </div>
 </section>
 
 <section class="home-section" id="languages">

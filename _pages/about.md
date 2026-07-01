@@ -115,7 +115,7 @@ redirect_from:
 
 <section class="home-section" id="publications">
   <h2>Publications</h2>
-  <article class="home-publication">
+  <article class="home-publication home-publication--with-media">
     <a class="home-publication__media" href="https://arxiv.org/pdf/2602.01836" aria-label="Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery">
       <img src="{{ '/images/publications/GraphicAbstract.png' | relative_url }}" alt="Graphic abstract for Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery" loading="lazy">
     </a>
@@ -126,7 +126,6 @@ redirect_from:
     </div>
   </article>
   <article class="home-publication">
-    <div class="home-publication__media home-publication__placeholder" aria-hidden="true"></div>
     <div class="home-publication__body">
       <h3><a href="https://arxiv.org/pdf/2507.15874">Why Braking? Scenario Extraction and Reasoning Utilizing LLM</a></h3>
       <p class="home-meta">IEEE ICVES 2025</p>
@@ -134,7 +133,6 @@ redirect_from:
     </div>
   </article>
   <article class="home-publication">
-    <div class="home-publication__media home-publication__placeholder" aria-hidden="true"></div>
     <div class="home-publication__body">
       <h3><a href="https://arxiv.org/pdf/2507.12894">LanePerf: a Performance Estimation Framework for Lane Detection</a></h3>
       <p class="home-meta">IEEE ITSC 2025</p>

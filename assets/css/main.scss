@@ -226,3 +226,149 @@
     margin-top: 0.2rem;
   }
 }
+
+/* Publication links on the home page */
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.45rem 0 0 !important;
+  font-family: $sans-serif;
+  font-size: 0.82rem !important;
+}
+
+.page__content .home-link,
+.page__content .home-link:hover {
+  text-decoration: none;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 0.15rem 0.7rem;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  color: var(--global-link-color);
+  line-height: 1.5;
+}
+
+.home-link:hover {
+  background: var(--global-link-color);
+  color: var(--global-bg-color) !important;
+}
+
+/* Project pages (_layouts/project.html) */
+
+.project-page {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.project-hero {
+  margin: 1rem 0 1.75rem;
+  text-align: center;
+}
+
+.project-venue {
+  margin: 0 0 0.5rem;
+  color: var(--global-link-color);
+  font-family: $sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.project-title {
+  margin: 0 0 0.9rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.project-authors {
+  margin: 0 0 0.25rem;
+  font-family: $sans-serif;
+  font-size: 1rem;
+}
+
+.project-affiliations {
+  margin: 0 0 1.1rem;
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: 0.85rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-links .btn {
+  margin: 0;
+}
+
+.project-teaser,
+.project-figure {
+  margin: 0 0 2rem;
+}
+
+.project-teaser img,
+.project-figure img,
+.project-media {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.project-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.project-content h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: 1.35rem;
+}
+
+.project-soon {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border: 1px dashed var(--global-text-color-light);
+  border-radius: 6px;
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.project-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0 2rem;
+}
+
+.project-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 6px;
+}
+
+@media (max-width: 37.5em) {
+  .project-title {
+    font-size: 1.5rem;
+  }
+}

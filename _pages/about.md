@@ -115,30 +115,28 @@ redirect_from:
 
 <section class="home-section" id="publications">
   <h2>Publications</h2>
+  {%- comment -%}
+    Generated from _publications/*.md with `homepage: true`, newest first.
+    Each entry needs: title, venue, date, cover, pdf (arXiv PDF link).
+  {%- endcomment -%}
+  {%- assign home_pubs = site.publications | where_exp: "pub", "pub.homepage" | sort: "date" | reverse -%}
+  {%- for pub in home_pubs %}
   <article class="home-publication home-publication--with-media">
-    <a class="home-publication__media" href="https://arxiv.org/pdf/2602.01836" aria-label="Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery">
-      <img src="{{ '/images/publications/GraphicAbstract.png' | relative_url }}" alt="Graphic abstract for Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery" loading="lazy">
+    <a class="home-publication__media" href="{{ pub.url | relative_url }}" aria-label="{{ pub.title | escape_once }}">
+      <img src="{{ pub.cover | relative_url }}" alt="{{ pub.cover_alt | default: pub.title | escape_once }}" loading="lazy">
     </a>
     <div class="home-publication__body">
-      <h3><a href="https://arxiv.org/pdf/2602.01836">Efficient Cross-Country Data Acquisition Strategy for ADAS via Street-View Imagery</a></h3>
-      <p class="home-meta">IEEE IV 2026</p>
-      <p>Leveraged street-view imagery to identify out-of-distribution traffic elements for efficient ADAS test route planning.</p>
+      <h3><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+      <p class="home-meta">{{ pub.venue }}</p>
+      <p class="home-links">
+        <a class="home-link" href="{{ pub.url | relative_url }}">Project Page</a>
+        {%- if pub.pdf %}
+        <a class="home-link" href="{{ pub.pdf }}">arXiv PDF</a>
+        {%- endif %}
+      </p>
     </div>
   </article>
-  <article class="home-publication">
-    <div class="home-publication__body">
-      <h3><a href="https://arxiv.org/pdf/2507.15874">Why Braking? Scenario Extraction and Reasoning Utilizing LLM</a></h3>
-      <p class="home-meta">IEEE ICVES 2025</p>
-      <p>Integrated LLMs into a rule-based framework for scenario extraction, enabling both rule-based and semantic scenario search.</p>
-    </div>
-  </article>
-  <article class="home-publication">
-    <div class="home-publication__body">
-      <h3><a href="https://arxiv.org/pdf/2507.12894">LanePerf: a Performance Estimation Framework for Lane Detection</a></h3>
-      <p class="home-meta">IEEE ITSC 2025</p>
-      <p>Developed a lane detection performance estimator using features from foundation models and ADAS perception models.</p>
-    </div>
-  </article>
+  {%- endfor %}
 </section>
 
 <section class="home-section" id="languages">

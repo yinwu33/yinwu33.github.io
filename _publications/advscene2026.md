@@ -1,5 +1,5 @@
 ---
-title: "Why Braking? Scenario Extraction and Reasoning Utilizing LLM"
+title: "Safety-Critical Scenarios Emerge from Initial Scenes"
 collection: publications
 category: conferences
 layout: project
@@ -7,28 +7,28 @@ homepage: true
 author_profile: false
 share: false
 comments: false
-permalink: /whybraking/
-redirect_from:
-  - /publication/whybraking2025/
-date: 2025-10-01
-venue: "IEEE ICVES 2025"
+permalink: /advscene/
+date: 2026-09-18
+venue: "Preprint, under review"
 authors:
   - Yin Wu
-  - Daniel Slieter
-  - Vivek Subramanian
+  - Jiarong Wei
+  - Carl Esselborn
+  - Shubham Phoolari
   - Ahmed Abouelazm
-  - Robin Bohn
+  - Daniel Slieter
   - J. Marius Zöllner
 affiliations:
   - CARIAD SE
   - Karlsruhe Institute of Technology
+  - Esslingen University of Applied Sciences
   - FZI Research Center for Information Technology
-cover: /images/publications/whybraking/cover.png
-cover_alt: "Four braking scenarios at an intersection: cut-in, oncoming vehicle when turning left, crossing cyclist, pedestrian when turning right"
-pdf: "https://arxiv.org/pdf/2507.15874"
-paperurl: "https://arxiv.org/abs/2507.15874"
-excerpt: "Integrates LLMs into a rule-based scenario extraction framework, enabling both rule-based and semantic search over driving scenarios."
-citation: 'Wu, Yin, et al. "Why Braking? Scenario Extraction and Reasoning Utilizing LLM." arXiv preprint arXiv:2507.15874 (2025).'
+cover: /images/publications/advscene/cover.png
+cover_alt: "Generated driving scenes before and after reinforcement-learning post-training, where the inserted adversary leads to a conflict with the ego vehicle"
+pdf: "https://arxiv.org/pdf/2609.20103"
+paperurl: "https://arxiv.org/abs/2609.20103"
+excerpt: "Generates realistic initial scenes that evolve into safety-critical interactions by post-training a scene diffusion model with reinforcement learning against black-box driving policies."
+citation: 'Wu, Yin, et al. "Safety-Critical Scenarios Emerge from Initial Scenes." arXiv preprint arXiv:2609.20103 (2026).'
 ---
 
 <!-- Sections below are placeholders. Replace each "Coming soon" with content. -->
@@ -61,11 +61,11 @@ citation: 'Wu, Yin, et al. "Why Braking? Scenario Extraction and Reasoning Utili
 How to add media later (this block is not rendered):
 
 Short looping clip instead of a GIF (MP4/H.264, 720p, keep it under ~5 MB):
-<video class="project-media" src="{{ '/images/publications/whybraking/clip.mp4' | relative_url }}" autoplay loop muted playsinline></video>
+<video class="project-media" src="{{ '/images/publications/advscene/clip.mp4' | relative_url }}" autoplay loop muted playsinline></video>
 
 Figure with caption:
 <figure class="project-figure">
-  <img src="{{ '/images/publications/whybraking/method.png' | relative_url }}" alt="Describe the figure">
+  <img src="{{ '/images/publications/advscene/method.png' | relative_url }}" alt="Describe the figure">
   <figcaption>Caption text.</figcaption>
 </figure>
 

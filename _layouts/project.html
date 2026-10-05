@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% comment %}
+  Project page for one publication. All data comes from the front matter of the
+  file in _publications/: title, authors, affiliations, venue, cover, pdf, paperurl.
+  The page body (Markdown below the front matter) holds the sections.
+{% endcomment %}
+
+<div id="main" role="main">
+  <article class="project-page" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <meta itemprop="headline" content="{{ page.title | escape_once }}">
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+    <header class="project-hero">
+      {% if page.venue %}<p class="project-venue">{{ page.venue }}</p>{% endif %}
+      <h1 class="project-title">{{ page.title }}</h1>
+
+      {% if page.authors %}
+        <p class="project-authors">
+          {%- for author in page.authors -%}
+            {%- if author == site.author.name -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+            {%- unless forloop.last -%}<span class="project-sep">, </span>{%- endunless -%}
+          {%- endfor -%}
+        </p>
+      {% endif %}
+
+      {% if page.affiliations %}
+        <p class="project-affiliations">{{ page.affiliations | join: " &middot; " }}</p>
+      {% endif %}
+
+      <div class="project-links">
+        {% if page.pdf %}<a class="btn btn--primary" href="{{ page.pdf }}">arXiv PDF</a>{% endif %}
+        {% if page.paperurl %}<a class="btn" href="{{ page.paperurl }}">arXiv</a>{% endif %}
+        {% if page.video %}<a class="btn" href="{{ page.video }}">Video</a>{% endif %}
+      </div>
+    </header>
+
+    {% if page.cover %}
+      <figure class="project-teaser">
+        <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape_once }}">
+      </figure>
+    {% endif %}
+
+    <section class="project-content">
+      {{ content }}
+    </section>
+  </article>
+</div>

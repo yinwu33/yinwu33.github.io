@@ -12,10 +12,6 @@ redirect_from:
   <p class="home-lead">
     I am a Ph.D. researcher at CARIAD SE and Karlsruhe Institute of Technology, working on data-driven verification and validation for ADAS and autonomous driving. My research focuses on cross-country release validation, scenario identification, virtual scenario generation, and ODD coverage.
   </p>
-  <div class="home-actions" aria-label="Contact links">
-    <a class="btn btn--primary" href="mailto:yinwu.life@gmail.com">Email</a>
-    <a class="btn" href="https://scholar.google.com/citations?user=Va5MksQAAAAJ&amp;hl=en">Google Scholar</a>
-  </div>
 </section>
 
 <section class="home-section" id="cv">

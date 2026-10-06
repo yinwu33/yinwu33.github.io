@@ -227,7 +227,39 @@
   }
 }
 
-/* Publication links on the home page */
+/* Publication authors, award and links on the home page */
+
+.home-authors {
+  margin: 0.3rem 0 0 !important;
+  font-family: $sans-serif;
+  font-size: 0.86rem !important;
+  line-height: 1.45;
+}
+
+.home-me {
+  color: var(--global-text-color);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.home-author-note {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+}
+
+.home-award {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: #fbe7a1;
+  color: #5c4400;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
 
 .home-links {
   display: flex;

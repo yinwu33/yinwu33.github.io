@@ -10,7 +10,7 @@ comments: false
 permalink: /streetview/
 redirect_from:
   - /publication/efficient-cross-country-2026/
-date: 2026-01-01
+date: 2026-06-22
 venue: "IEEE IV 2026"
 authors:
   - Yin Wu

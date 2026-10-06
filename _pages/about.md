@@ -116,20 +116,29 @@ redirect_from:
 <section class="home-section" id="publications">
   <h2>Publications</h2>
   {%- comment -%}
-    Generated from _publications/*.md with `homepage: true`, newest first.
-    Each entry needs: title, venue, date, cover, pdf (arXiv PDF link).
+    Generated from _publications/*.md with `homepage: true`, newest `date` first.
+    Fields: title, venue, date, authors, pdf (arXiv PDF link); optional: cover, award, author_note.
+    Papers with `layout: project` get a "Project Page" link; the others link to arXiv.
   {%- endcomment -%}
   {%- assign home_pubs = site.publications | where_exp: "pub", "pub.homepage" | sort: "date" | reverse -%}
   {%- for pub in home_pubs %}
-  <article class="home-publication home-publication--with-media">
-    <a class="home-publication__media" href="{{ pub.url | relative_url }}" aria-label="{{ pub.title | escape_once }}">
+  {%- if pub.layout == "project" -%}{%- assign pub_link = pub.url | relative_url -%}{%- else -%}{%- assign pub_link = pub.paperurl | default: pub.pdf -%}{%- endif %}
+  <article class="home-publication{% if pub.cover %} home-publication--with-media{% endif %}">
+    {%- if pub.cover %}
+    <a class="home-publication__media" href="{{ pub_link }}" aria-label="{{ pub.title | escape_once }}">
       <img src="{{ pub.cover | relative_url }}" alt="{{ pub.cover_alt | default: pub.title | escape_once }}" loading="lazy">
     </a>
+    {%- endif %}
     <div class="home-publication__body">
-      <h3><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
-      <p class="home-meta">{{ pub.venue }}</p>
+      <h3><a href="{{ pub_link }}">{{ pub.title }}</a></h3>
+      {%- if pub.authors %}
+      <p class="home-authors">{% for author in pub.authors %}{% assign author_name = author | remove: "*" %}{% if author_name == site.author.name %}<strong class="home-me">{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if pub.author_note %} <span class="home-author-note">({{ pub.author_note }})</span>{% endif %}</p>
+      {%- endif %}
+      <p class="home-meta">{{ pub.venue }}{% if pub.award %} <span class="home-award">{{ pub.award }}</span>{% endif %}</p>
       <p class="home-links">
+        {%- if pub.layout == "project" %}
         <a class="home-link" href="{{ pub.url | relative_url }}">Project Page</a>
+        {%- endif %}
         {%- if pub.pdf %}
         <a class="home-link" href="{{ pub.pdf }}">arXiv PDF</a>
         {%- endif %}

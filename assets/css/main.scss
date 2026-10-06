@@ -227,6 +227,93 @@
   }
 }
 
+/* Collapsible education / experience entries (<details>), closed by default */
+
+.home-timeline .home-entry__head {
+  padding-right: 1.4rem; /* keeps dates aligned with the collapsible entries */
+}
+
+.home-timeline article.home-entry > .home-meta:last-child {
+  margin-bottom: 0 !important; /* same height as a collapsed entry */
+}
+
+details.home-entry > summary {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1rem;
+  align-items: baseline;
+  padding-right: 1.4rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+details.home-entry > summary h3 {
+  margin: 0;
+  font-family: $sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+details.home-entry > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.home-entry > summary::after {
+  content: "";
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid var(--global-text-color-light);
+  border-bottom: 2px solid var(--global-text-color-light);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+details.home-entry[open] > summary::after {
+  top: 0.5rem;
+  transform: rotate(-135deg);
+}
+
+details.home-entry > summary:hover h3 {
+  color: var(--global-link-color);
+}
+
+details.home-entry > summary:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+details.home-entry > summary .home-meta {
+  display: block;
+  grid-column: 1 / -1;
+  margin: 0.2rem 0 0 !important;
+}
+
+.home-entry__date {
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.home-entry__details {
+  padding-top: 0.55rem;
+}
+
+@media (max-width: 37.5em) {
+  details.home-entry > summary {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .home-entry__date {
+    margin-top: 0.2rem;
+  }
+}
+
 /* Publication authors, award and links on the home page */
 
 .home-authors {

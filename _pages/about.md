@@ -36,27 +36,30 @@ redirect_from:
 <section class="home-section" id="cv">
   <h2>Education</h2>
   <div class="home-timeline">
-    <article class="home-entry">
-      <div class="home-entry__head">
-        <h3>Karlsruhe Institute of Technology, Ph.D.</h3>
-        <span>09/2023 - Present</span>
+    <details class="home-entry">
+      <summary>
+        <h3>Karlsruhe Institute of Technology</h3>
+        <span class="home-entry__date">09/2023 - Present</span>
+        <span class="home-meta">Ph.D.</span>
+      </summary>
+      <div class="home-entry__details">
+        <p class="home-meta">Data-driven verification and validation in ADAS/AD</p>
+        <p>Research focus: cross-country ADAS release validation, scenario identification, and virtual scenario generation for ODD coverage.</p>
       </div>
-      <p class="home-meta">Data-driven verification and validation in ADAS/AD</p>
-      <p>Research focus: cross-country ADAS release validation, scenario identification, and virtual scenario generation for ODD coverage.</p>
-    </article>
+    </details>
     <article class="home-entry">
       <div class="home-entry__head">
-        <h3>Karlsruhe Institute of Technology, M.Sc.</h3>
+        <h3>Karlsruhe Institute of Technology</h3>
         <span>10/2019 - 03/2023</span>
       </div>
-      <p class="home-meta">Mechatronics and Information Technology, Robotics</p>
+      <p class="home-meta">M.Sc., Mechatronics and Information Technology (Robotics)</p>
     </article>
     <article class="home-entry">
       <div class="home-entry__head">
-        <h3>Beijing Institute of Technology, B.Sc.</h3>
+        <h3>Beijing Institute of Technology</h3>
         <span>09/2015 - 07/2018</span>
       </div>
-      <p class="home-meta">Vehicle Engineering</p>
+      <p class="home-meta">B.Sc., Vehicle Engineering</p>
     </article>
   </div>
 </section>
@@ -64,52 +67,60 @@ redirect_from:
 <section class="home-section" id="experience">
   <h2>Experience</h2>
   <div class="home-timeline">
-    <article class="home-entry">
-      <div class="home-entry__head">
+    <details class="home-entry">
+      <summary>
         <h3>CARIAD SE, Germany</h3>
-        <span>09/2023 - Present</span>
+        <span class="home-entry__date">09/2023 - Present</span>
+        <span class="home-meta">Ph.D. Student, Scenario and Testing Department</span>
+      </summary>
+      <div class="home-entry__details">
+        <ul>
+          <li>Research and project work in data-driven ADAS/AD verification and validation.</li>
+          <li>Contributed to PoCs for an LLM-based scenario agentic editor and LLM-based test case generation.</li>
+          <li>Supported corner case detection from bus data.</li>
+        </ul>
       </div>
-      <p class="home-meta">Ph.D. Student, Scenario and Testing Department</p>
-      <ul>
-        <li>Research and project work in data-driven ADAS/AD verification and validation.</li>
-        <li>Contributed to PoCs for an LLM-based scenario agentic editor and LLM-based test case generation.</li>
-        <li>Supported corner case detection from bus data.</li>
-      </ul>
-    </article>
-    <article class="home-entry">
-      <div class="home-entry__head">
+    </details>
+    <details class="home-entry">
+      <summary>
         <h3>LiangDao GmbH, Germany</h3>
-        <span>04/2022 - 08/2023</span>
+        <span class="home-entry__date">04/2022 - 08/2023</span>
+        <span class="home-meta">Computer Vision Algorithm Engineer, Master Thesis Student, Intern</span>
+      </summary>
+      <div class="home-entry__details">
+        <p class="home-meta">Computer Vision Algorithm Engineer, 05/2023 - 08/2023</p>
+        <ul>
+          <li>Developed an online HD map generation network using LiDAR point clouds.</li>
+          <li>Built and maintained GitLab CI/CD pipelines for production deployment.</li>
+        </ul>
+        <p class="home-meta">Master Thesis, 08/2022 - 03/2023</p>
+        <ul>
+          <li>Thesis: Fusion of Multi-Information to Improve Object Detection Results for LiDAR Point Clouds.</li>
+          <li>Developed a sensor fusion and object tracking system for autonomous driving.</li>
+        </ul>
+        <p class="home-meta">Intern, Field Application Engineering, 04/2022 - 07/2022</p>
+        <ul>
+          <li>Assembled and integrated edge-computing LiDAR systems.</li>
+          <li>Deployed hardware solutions at customer sites and developed evaluation software for LiDAR system performance.</li>
+        </ul>
       </div>
-      <p class="home-meta">Computer Vision Algorithm Engineer, 05/2023 - 08/2023</p>
-      <ul>
-        <li>Developed an online HD map generation network using LiDAR point clouds.</li>
-        <li>Built and maintained GitLab CI/CD pipelines for production deployment.</li>
-      </ul>
-      <p class="home-meta">Master Thesis, 08/2022 - 03/2023</p>
-      <ul>
-        <li>Thesis: Fusion of Multi-Information to Improve Object Detection Results for LiDAR Point Clouds.</li>
-        <li>Developed a sensor fusion and object tracking system for autonomous driving.</li>
-      </ul>
-      <p class="home-meta">Intern, Field Application Engineering, 04/2022 - 07/2022</p>
-      <ul>
-        <li>Assembled and integrated edge-computing LiDAR systems.</li>
-        <li>Deployed hardware solutions at customer sites and developed evaluation software for LiDAR system performance.</li>
-      </ul>
-    </article>
-    <article class="home-entry">
-      <div class="home-entry__head">
+    </details>
+    <details class="home-entry">
+      <summary>
         <h3>Karlsruhe Institute of Technology, Germany</h3>
-        <span>07/2021 - 03/2022</span>
+        <span class="home-entry__date">07/2021 - 03/2022</span>
+        <span class="home-meta">Student Assistant (ADAS Integration), Tutor</span>
+      </summary>
+      <div class="home-entry__details">
+        <p class="home-meta">Student Assistant, ADAS Integration, 07/2021 - 03/2022</p>
+        <ul>
+          <li>Built a multi-sensor data collection system integrating LiDAR, cameras, and GNSS/IMU sensors with ROS-based software.</li>
+          <li>Worked on sensor calibration and time synchronization.</li>
+        </ul>
+        <p class="home-meta">Tutor, Optimization and Dynamic System, 12/2021 - 03/2022</p>
+        <p>Tutored exercise classes and provided MATLAB programming guidance.</p>
       </div>
-      <p class="home-meta">Student Assistant, ADAS Integration, 07/2021 - 03/2022</p>
-      <ul>
-        <li>Built a multi-sensor data collection system integrating LiDAR, cameras, and GNSS/IMU sensors with ROS-based software.</li>
-        <li>Worked on sensor calibration and time synchronization.</li>
-      </ul>
-      <p class="home-meta">Tutor, Optimization and Dynamic System, 12/2021 - 03/2022</p>
-      <p>Tutored exercise classes and provided MATLAB programming guidance.</p>
-    </article>
+    </details>
   </div>
 </section>
 

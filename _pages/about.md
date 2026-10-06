@@ -18,21 +18,6 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-section" id="research">
-  <h2>Research</h2>
-  <p>
-    My work combines scenario generation, scenario mining, multi-sensor perception, reinforcement learning planners, and ADAS system integration to make validation more efficient and more representative across operating domains.
-  </p>
-  <div class="home-chip-list">
-    <span class="home-chip">Scenario generation</span>
-    <span class="home-chip">Scenario mining</span>
-    <span class="home-chip">ADAS / AD validation</span>
-    <span class="home-chip">ODD coverage</span>
-    <span class="home-chip">Multi-sensor perception</span>
-    <span class="home-chip">Agentic AI</span>
-  </div>
-</section>
-
 <section class="home-section" id="cv">
   <h2>Education</h2>
   <div class="home-timeline">

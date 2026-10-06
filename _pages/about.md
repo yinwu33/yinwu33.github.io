@@ -140,11 +140,3 @@ redirect_from:
   {%- endfor %}
 </section>
 
-<section class="home-section" id="languages">
-  <h2>Languages</h2>
-  <div class="home-grid">
-    <p><strong>Chinese</strong><br>Native proficiency</p>
-    <p><strong>English</strong><br>Professional working proficiency</p>
-    <p><strong>German</strong><br>Good working proficiency</p>
-  </div>
-</section>
